@@ -11,8 +11,8 @@ echo 'alias runelf="simavr -m atmega328p -f 16000000"' >> ~/.bashrc
 
 
 
-
 # Other needed Aliase or installations
+pip3 install flask flask-cors
 
 
 
