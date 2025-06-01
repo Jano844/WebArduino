@@ -1,0 +1,9 @@
+
+
+services:
+  arduino-dev:
+    build: .
+    container_name: arduino-sim
+    volumes:
+      - ./src:/workspace
+    tty: true
