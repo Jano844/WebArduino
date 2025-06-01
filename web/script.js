@@ -1,5 +1,5 @@
 function sendCommand() {
-  fetch("http://DEIN-SERVER-IP-ODER-DOMAIN:5000/send", {
+  fetch("http://192.168.178.187:5000/send", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
